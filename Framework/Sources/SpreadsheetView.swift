@@ -312,6 +312,10 @@ public class SpreadsheetView: UIView {
 
     public var scrollView: UIScrollView {
         return overlayView
+    }   
+    
+    public var tableViewPublic: UIScrollView {
+        return columnHeaderView
     }
 
     var layoutProperties = LayoutProperties()
